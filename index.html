@@ -34,7 +34,8 @@
 </head>
 <body class="font-manrope">
     <header>
-        <div class="lg:mx-32 lg:my-12">
+        <!-- Header Main Section -->
+        <div class=" lg:mx-32 lg:my-12">
             <div class="navbar items-center bg-base-100">
                 <div class="navbar-start">
                   <div class="dropdown">
@@ -49,7 +50,7 @@
                       <li><a>Contact</a></li>
                     </ul>
                   </div>
-                  <a class="btn btn-ghost text-4xl font-extrabold">Hockey<span class="text-frequent-color -mx-2">'</span>s</a>
+                  <a class="btn btn-ghost text-2xl lg:text-4xl font-extrabold">Hockey<span class="text-frequent-color -mx-2">'</span>s</a>
                 </div>
                 <div class="navbar-center hidden lg:flex gap-10">
                   <ul class="menu menu-horizontal px-1">
@@ -68,7 +69,25 @@
         </div>
     </header>
     <main>
-
+        <!-- Slider or Carousel -->
+        <section class="lg:mx-32 lg:my-12">
+            <div class="carousel w-full h-[550px]">
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img src="Images/1.png" class="w-full" />
+                  <div class="absolute transform -translate-y-1/2 left-5 bottom-0">
+                    <a href="#slide2" class="btn btn-circle bg-black text-white">❮</a> 
+                    <a href="#slide1" class="btn btn-circle bg-black text-white">❯</a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a> 
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+              </div>
+        </section>
     </main>
     <footer>
 
